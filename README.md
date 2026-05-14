@@ -37,6 +37,14 @@ This repo prioritizes:
 
 ---
 
+## Installation
+
+```
+curl -fsSL https://raw.githubusercontent.com/anhthevo1989/dotfiles/main/install.sh | sh
+```
+
+---
+
 # Repository Structure
 
 ```
