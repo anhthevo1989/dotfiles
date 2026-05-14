@@ -1,0 +1,71 @@
+@-moz-document url("about:home"),
+               url("about:newtab"),
+               url("about:privatebrowsing"),
+               url-prefix("about:preferences"),
+               url-prefix("about:addons"),
+               url-prefix("about:downloads"),
+               url-prefix("about:protections") {
+  :root {
+    --pulse-bg: #0F0D18;
+    --pulse-fg: #C0CAF5;
+    --pulse-muted: #6B7394;
+    --pulse-blue: #7AA2F7;
+    --pulse-purple: #BD93F9;
+    --pulse-cyan: #8BE9FD;
+    --pulse-selection: #241C30;
+  }
+
+  html,
+  body,
+  main,
+  .main-content,
+  .content-container,
+  .home-section,
+  .prefs-pane,
+  .sticky-container,
+  .main-search,
+  .body-wrapper {
+    background-color: var(--pulse-bg) !important;
+    color: var(--pulse-fg) !important;
+  }
+
+  input,
+  textarea,
+  select,
+  button,
+  .search-handoff-button,
+  .search-wrapper input,
+  .card,
+  .addon-card,
+  .message-bar,
+  .container {
+    background-color: var(--pulse-bg) !important;
+    color: var(--pulse-fg) !important;
+    border-color: var(--pulse-muted) !important;
+  }
+
+  input:focus,
+  textarea:focus,
+  select:focus {
+    border-color: var(--pulse-cyan) !important;
+    outline-color: var(--pulse-cyan) !important;
+  }
+
+  button:hover,
+  .card:hover,
+  .addon-card:hover {
+    background-color: var(--pulse-selection) !important;
+  }
+
+  a,
+  .text-link {
+    color: var(--pulse-cyan) !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  legend {
+    color: var(--pulse-purple) !important;
+  }
+}

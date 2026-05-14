@@ -1,0 +1,46 @@
+# PULSE STARSHIP THEME
+# ====================
+
+format = """
+$directory\
+$git_branch\
+$git_status\
+$python\
+$nodejs\
+$lua\
+$cmd_duration\
+$line_break\
+$character
+"""
+
+[directory]
+style = "bold #8BE9FD"
+truncation_length = 3
+truncate_to_repo = true
+
+[git_branch]
+style = "bold #BD93F9"
+symbol = " "
+
+[git_status]
+style = "#8BE9FD"
+
+[python]
+style = "#50FA7B"
+symbol = " "
+
+[nodejs]
+style = "#50FA7B"
+symbol = " "
+
+[lua]
+style = "#8BE9FD"
+symbol = " "
+
+[cmd_duration]
+style = "#6B7394"
+
+[character]
+success_symbol = "[❯](bold #7AA2F7)"
+error_symbol = "[❯](bold #FF5555)"
+vimcmd_symbol = "[❮](bold #BD93F9)"

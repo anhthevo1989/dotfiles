@@ -1,0 +1,26 @@
+-- ==========================================================
+-- FILE: lua/core/env.lua
+-- ==========================================================
+--
+-- PURPOSE
+-- -------
+-- Defines environment variables for Hyprland.
+--
+-- WHY IT EXISTS
+-- -------------
+-- Qt theming is important for this setup. Keeping environment variables in one
+-- file makes the Qt/Pulse direction easier to maintain.
+--
+-- HOW IT WORKS
+-- ------------
+-- hl.env() exports environment variables for the Hyprland session.
+--
+-- FLOW
+-- ----
+-- Hyprland -> env.lua -> Qt apps respect qt6ct theme configuration
+--
+-- BEGINNER NOTES
+-- --------------
+-- QT_QPA_PLATFORMTHEME=qt6ct is what lets Qt apps use qt6ct styling.
+
+hl.env("QT_QPA_PLATFORMTHEME", "qt6ct")

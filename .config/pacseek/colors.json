@@ -1,0 +1,15 @@
+{
+	"Transparent": false,
+	"Accent": "7AA2F7",
+	"Title": "BD93F9",
+	"SearchBar": "0F0D18",
+	"PackagelistSourceRepository": "50FA7B",
+	"PackagelistSourceAUR": "8BE9FD",
+	"PackagelistHeader": "C0CAF5",
+	"SettingsFieldBackground": "241C30",
+	"SettingsFieldText": "C0CAF5",
+	"SettingsFieldLabel": "BD93F9",
+	"SettingsDropdownNotSelected": "6B7394",
+	"StylePKGBUILD": "dracula",
+	"Comments": "Pulse Theme"
+}

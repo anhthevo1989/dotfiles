@@ -1,0 +1,67 @@
+{
+  "dark": {
+    "name": "Pulse Dark",
+
+    "primary": "#7AA2F7",
+    "primaryText": "#0F0D18",
+    "primaryContainer": "#241C30",
+
+    "secondary": "#BD93F9",
+
+    "surface": "#0F0D18",
+    "surfaceText": "#C0CAF5",
+
+    "surfaceVariant": "#0F0D18",
+    "surfaceVariantText": "#C0CAF5",
+
+    "surfaceTint": "#7AA2F7",
+
+    "background": "#0F0D18",
+    "backgroundText": "#C0CAF5",
+
+    "outline": "#6B7394",
+
+    "surfaceContainer": "#0F0D18",
+    "surfaceContainerHigh": "#0F0D18",
+    "surfaceContainerHighest": "#241C30",
+
+    "error": "#FF5555",
+    "warning": "#FFB86C",
+    "info": "#8BE9FD",
+
+    "matugen_type": "scheme-expressive"
+  },
+
+  "light": {
+    "name": "Pulse Light",
+
+    "primary": "#2563EB",
+    "primaryText": "#F8F8FC",
+    "primaryContainer": "#DCE4FF",
+
+    "secondary": "#7C3AED",
+
+    "surface": "#F8F8FC",
+    "surfaceText": "#1E1E2E",
+
+    "surfaceVariant": "#F8F8FC",
+    "surfaceVariantText": "#1E1E2E",
+
+    "surfaceTint": "#2563EB",
+
+    "background": "#F8F8FC",
+    "backgroundText": "#1E1E2E",
+
+    "outline": "#6B7280",
+
+    "surfaceContainer": "#F8F8FC",
+    "surfaceContainerHigh": "#F8F8FC",
+    "surfaceContainerHighest": "#DCE4FF",
+
+    "error": "#DC2626",
+    "warning": "#EA580C",
+    "info": "#0891B2",
+
+    "matugen_type": "scheme-expressive"
+  }
+}
