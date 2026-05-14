@@ -42,7 +42,7 @@ fi
 # CONFIGURATION
 # ----------------------------------------------------------
 
-repo_url="https://github.com/YOUR_USERNAME/dotfiles.git"
+repo_url="https://github.com/anhthevo1989/dotfiles.git"
 projects_dir="$HOME/Projects"
 repo_dir="$projects_dir/dotfiles"
 backup_dir="$HOME/.dotfiles-backup"
