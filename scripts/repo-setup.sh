@@ -51,9 +51,17 @@ backup_dir="$HOME/.dotfiles-backup"
 # COLORS
 # ----------------------------------------------------------
 
-reset="$(printf '\033[0m')"
-green="$(printf '\033[32m')"
-blue="$(printf '\033[34m')"
+script_dir="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+lib_dir="$script_dir/lib"
+colors_file="$lib_dir/pulse-colors.sh"
+
+if [ ! -f "$colors_file" ]; then
+    printf "Pulse color library not found: %s\n" "$colors_file"
+    exit 1
+fi
+
+# shellcheck source=/dev/null
+. "$colors_file"
 
 # ----------------------------------------------------------
 # UI HELPERS
