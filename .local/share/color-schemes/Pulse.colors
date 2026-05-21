@@ -1,0 +1,200 @@
+[ColorEffects:Disabled]
+Color=56,48,72
+ColorAmount=0.35
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+IntensityAmount=0.10
+IntensityEffect=0
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=56,48,72
+ColorAmount=0.10
+ColorEffect=0
+ContrastAmount=0.10
+ContrastEffect=0
+Enable=false
+IntensityAmount=0.00
+IntensityEffect=0
+
+# ==========================================================
+# BUTTONS
+# ==========================================================
+
+[Colors:Button]
+BackgroundAlternate=36,28,48
+BackgroundNormal=15,13,24
+
+DecorationFocus=139,233,253
+DecorationHover=122,162,247
+
+ForegroundActive=139,233,253
+ForegroundInactive=107,115,148
+ForegroundLink=139,233,253
+ForegroundNegative=255,85,85
+ForegroundNeutral=255,184,108
+ForegroundNormal=192,202,245
+ForegroundPositive=80,250,123
+ForegroundVisited=189,147,249
+
+# ==========================================================
+# COMPLEMENTARY
+# ==========================================================
+
+[Colors:Complementary]
+BackgroundAlternate=36,28,48
+BackgroundNormal=15,13,24
+
+DecorationFocus=139,233,253
+DecorationHover=122,162,247
+
+ForegroundActive=139,233,253
+ForegroundInactive=107,115,148
+ForegroundLink=139,233,253
+ForegroundNegative=255,85,85
+ForegroundNeutral=255,184,108
+ForegroundNormal=192,202,245
+ForegroundPositive=80,250,123
+ForegroundVisited=189,147,249
+
+# ==========================================================
+# HEADER
+# ==========================================================
+
+[Colors:Header]
+BackgroundAlternate=36,28,48
+BackgroundNormal=15,13,24
+
+DecorationFocus=139,233,253
+DecorationHover=122,162,247
+
+ForegroundActive=139,233,253
+ForegroundInactive=107,115,148
+ForegroundLink=139,233,253
+ForegroundNegative=255,85,85
+ForegroundNeutral=255,184,108
+ForegroundNormal=192,202,245
+ForegroundPositive=80,250,123
+ForegroundVisited=189,147,249
+
+[Colors:Header][Inactive]
+BackgroundAlternate=36,28,48
+BackgroundNormal=15,13,24
+
+DecorationFocus=107,115,148
+DecorationHover=107,115,148
+
+ForegroundActive=139,233,253
+ForegroundInactive=107,115,148
+ForegroundLink=139,233,253
+ForegroundNegative=255,85,85
+ForegroundNeutral=255,184,108
+ForegroundNormal=192,202,245
+ForegroundPositive=80,250,123
+ForegroundVisited=189,147,249
+
+# ==========================================================
+# SELECTION
+# ==========================================================
+
+[Colors:Selection]
+BackgroundAlternate=36,28,48
+BackgroundNormal=139,233,253
+
+DecorationFocus=139,233,253
+DecorationHover=122,162,247
+
+ForegroundActive=15,13,24
+ForegroundInactive=15,13,24
+ForegroundLink=15,13,24
+ForegroundNegative=15,13,24
+ForegroundNeutral=15,13,24
+ForegroundNormal=15,13,24
+ForegroundPositive=15,13,24
+ForegroundVisited=15,13,24
+
+# ==========================================================
+# TOOLTIP
+# ==========================================================
+
+[Colors:Tooltip]
+BackgroundAlternate=36,28,48
+BackgroundNormal=36,28,48
+
+DecorationFocus=139,233,253
+DecorationHover=122,162,247
+
+ForegroundActive=139,233,253
+ForegroundInactive=107,115,148
+ForegroundLink=139,233,253
+ForegroundNegative=255,85,85
+ForegroundNeutral=255,184,108
+ForegroundNormal=192,202,245
+ForegroundPositive=80,250,123
+ForegroundVisited=189,147,249
+
+# ==========================================================
+# VIEW
+# ==========================================================
+
+[Colors:View]
+BackgroundAlternate=15,13,24
+BackgroundNormal=15,13,24
+
+DecorationFocus=139,233,253
+DecorationHover=122,162,247
+
+ForegroundActive=139,233,253
+ForegroundInactive=107,115,148
+ForegroundLink=139,233,253
+ForegroundNegative=255,85,85
+ForegroundNeutral=255,184,108
+ForegroundNormal=192,202,245
+ForegroundPositive=80,250,123
+ForegroundVisited=189,147,249
+
+# ==========================================================
+# WINDOW
+# ==========================================================
+
+[Colors:Window]
+BackgroundAlternate=15,13,24
+BackgroundNormal=15,13,24
+
+DecorationFocus=139,233,253
+DecorationHover=122,162,247
+
+ForegroundActive=139,233,253
+ForegroundInactive=107,115,148
+ForegroundLink=139,233,253
+ForegroundNegative=255,85,85
+ForegroundNeutral=255,184,108
+ForegroundNormal=192,202,245
+ForegroundPositive=80,250,123
+ForegroundVisited=189,147,249
+
+# ==========================================================
+# GENERAL
+# ==========================================================
+
+[General]
+ColorScheme=Pulse
+Name=Pulse
+shadeSortColumn=true
+
+[KDE]
+contrast=4
+
+# ==========================================================
+# WINDOW MANAGER
+# ==========================================================
+
+[WM]
+activeBackground=15,13,24
+activeBlend=15,13,24
+activeForeground=192,202,245
+
+inactiveBackground=15,13,24
+inactiveBlend=15,13,24
+inactiveForeground=107,115,148
