@@ -1,36 +1,30 @@
 gui:
   theme:
     activeBorderColor:
-      - "#7AA2F7"   # Pulse blue
+      - "#7AA2F7" # Pulse blue
       - bold
-
     inactiveBorderColor:
-      - "#6B7394"   # muted
-
+      - "#6B7394" # muted
     searchingActiveBorderColor:
-      - "#BD93F9"   # Pulse purple
+      - "#BD93F9" # Pulse purple
       - bold
-
     optionsTextColor:
-      - "#8BE9FD"   # cyan
-
+      - "#8BE9FD" # cyan
     selectedLineBgColor:
-      - "#241C30"   # selection bg
-
+      - "#241C30" # selection bg
     selectedRangeBgColor:
       - "#241C30"
-
     cherryPickedCommitBgColor:
       - "#241C30"
-
     cherryPickedCommitFgColor:
       - "#50FA7B"
-
     unstagedChangesColor:
       - "#FFB86C"
-
     defaultFgColor:
       - "#C0CAF5"
-
     authorColors:
       "*": "#7AA2F7"
+git:
+  pagers:
+    - colorArg: always
+      pager: delta --dark --side-by-side --line-numbers
